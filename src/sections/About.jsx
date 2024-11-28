@@ -63,7 +63,7 @@ const About = () => {
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Pune, India, and open to work remote or onsite.</p>
               <div className="copy-container" onClick={handleCopy}>
-                <Button name={hasCopied ? 'Copied!' : 'Contact Me '} isBeam containerClass="w-full mt-10" />
+                <Button name={hasCopied ? 'EmailCopied!' : 'Contact Me '} isBeam containerClass="w-full mt-10" />
               </div>
             </div>
           </div>

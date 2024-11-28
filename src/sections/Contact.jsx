@@ -16,14 +16,18 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
+  //service_aols2vi
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+
+        "service_aols2vi",
+        "template_xmmsqjl",
         {
           from_name: form.name,
           to_name: 'Nilesh Pataskar',
@@ -31,7 +35,8 @@ const Contact = () => {
           to_email: 'nileshpataskars@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        "l6us1Y0pvG1gMFd7O",
       )
       .then(
         () => {
@@ -72,12 +77,12 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container ">
-          <h3 className="head-text mt-16">{"Let's talk"}</h3>
+          <h3 className="head-text sm:mt-16">{"Let's talk"}</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website,  or bring a unique project to life, I’m here to help.
+            Whether you’re looking to build a new website, or bring a unique project to life, I’m here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form ref={formRef} onSubmit={handleSubmit} className="sm:mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input

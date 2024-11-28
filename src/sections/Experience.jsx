@@ -17,13 +17,19 @@ const WorkExperience = () => {
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>
-              <ambientLight intensity={7} />
+              <ambientLight intensity={6} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-              <directionalLight position={[10, 10, 10]} intensity={1} />
-              <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
+              <directionalLight position={[505, 50, 50]} intensity={0.1} />
+              <OrbitControls
+                enableZoom={true}
+                minDistance={5} // Minimum zoom distance
+                maxDistance={6}
+                maxPolarAngle={Math.PI / 2}
+                x
+              />
 
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={3} animationName={animationName} />
+                <Developer position-y={-3.8} scale={3.1} animationName={animationName} />
               </Suspense>
             </Canvas>
           </div>

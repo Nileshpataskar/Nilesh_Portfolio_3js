@@ -60,7 +60,8 @@ const Projects = () => {
             </div>
 
             <a
-              className="flex items-center gap-2 cursor-pointer text-white-600"
+              className="flex items-center gap-2 cursor-pointer text-white-600  px-6 py-2 bg-transparent border  dark:border-white dark:text-white text-black rounded-lg font-medium transform sm:hover:-translate-y-1 transition duration-400 shadow-[0_4px_14px_0_rgb(0,118,255,25%)] hover:shadow-[0_6px_20px_rgba(0,118,255,15%)]  px-2 py-2 bg-[#000]
+              "
               href={currentProject.href}
               target="_blank"
               rel="noreferrer">
@@ -86,7 +87,7 @@ const Projects = () => {
             <directionalLight position={[10, 10, 5]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.2, 0]}>
                   <DemoComputer texture={currentProject.texture} />
                 </group>
               </Suspense>
@@ -100,3 +101,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
+<button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">
+  Next.js Blue
+</button>;

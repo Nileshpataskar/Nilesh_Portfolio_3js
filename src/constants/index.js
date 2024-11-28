@@ -21,7 +21,6 @@ export const navLinks = [
   },
 ];
 
-
 export const myProjects = [
   {
     title: 'Movix',
@@ -114,16 +113,6 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Freelancer',
-    pos: 'Full-Stack Developer',
-    duration: 'May 2024 - Present',
-    title:
-      'Freelance developer specializing in Next.js and React Native; built high-engagement apps, collaborating cross-functionally for quality code.',
-    icon: '/assets/freelance.png',
-    animation: 'victory',
-  },
-  {
-    id: 2,
     name: 'DezineXpert Uphomes',
     pos: 'Full-Stack Developer',
     duration: 'Aug 2023 - May 2024',
@@ -133,10 +122,20 @@ export const workExperiences = [
     animation: 'salute',
   },
   {
+    id: 2,
+    name: 'Freelancer',
+    pos: 'Full-Stack Developer',
+    duration: 'July 2022 - April 2023',
+    title:
+      'Developed product website utilizing Next.js and React and component libraries Designed intuitive and responsive web pages to enhance user engagement and experience',
+    icon: '/assets/freelance.png',
+    animation: 'victory',
+  },
+  {
     id: 3,
     name: 'Pitney Bowes',
     pos: 'Software Engineer',
-    duration: 'Jan 2022 - May 2023',
+    duration: 'Jan 2022 - June 2022',
     title:
       'Developed APIs with Python/Django, resolved bugs using React/Node.js, and collaborated on IoT printer management projects.',
     icon: '/assets/pitney.png',

@@ -57,7 +57,7 @@ const Hero = () => {
 
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a
-          href="https://docs.google.com/document/d/1rkbzrtduKbU_SykBRsv8lDpSxd73mEKgVLiXL1po5Z4/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1dFfxVb5hjp9QcUd6sCJ9kBxZl91BcXCO/view?usp=sharing"
           className="w-fit"
           target="_blank" // Opens in a new tab
           rel="noopener noreferrer">
