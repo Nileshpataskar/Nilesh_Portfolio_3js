@@ -23,11 +23,11 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: 'Movix',
-    desc: 'Movix is a dynamic platform offering seamless movie browsing and streaming, powered by a robust API for easy exploration.',
+    title: 'Nil-Flix',
+    desc: 'Nil-Flix is a dynamic platform offering seamless movie browsing and streaming, powered by a robust API for easy exploration.',
     subdesc:
       'Built with Next.js 14, Tailwind CSS, and TypeScript, Movix ensures optimal performance and a visually appealing user experience.',
-    href: 'https://movixtwo.vercel.app/',
+    href: 'https://nil-flix.vercel.app/',
     texture: '/textures/project/movix.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
