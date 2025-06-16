@@ -54,7 +54,6 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
-
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a
           href="https://drive.google.com/file/d/1dFfxVb5hjp9QcUd6sCJ9kBxZl91BcXCO/view?usp=sharing"
